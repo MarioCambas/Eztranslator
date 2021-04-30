@@ -5,7 +5,7 @@ Create a txt file for each language you want to use and save it into languages f
 - You can now translate one of those languages files, for instance 'en.txt', to the rest of the languages with google translator using the function translate files. 
 - The name of the file will be used to show the flag image related to the language
 - The fisrt line of the txt file define the language
-- The second line define the langauage name
+- The second line define the language name
 - Use a single line for each text to translate
 - You can include html tags in the file
 for example:
