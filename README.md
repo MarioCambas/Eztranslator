@@ -2,6 +2,7 @@
 Translate your web pages easily
 # HOW TO CONFIGURE:
 Create a txt file for each language you want to use and save it into languages folder under filename 'code for language.txt' using lowercase an the code for language thats it 'es' for spanish, 'en' for english, fr for french, and so on. Make a web search for languages codes...
+- You can now translate one of those languages files, for instance 'en.txt', to the rest of the languages with google translator using the function translate files. 
 - The name of the file will be used to show the flag image related to the language
 - The fisrt line of the txt file define the language
 - The second line define the langauage name
