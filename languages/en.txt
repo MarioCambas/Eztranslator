@@ -1,0 +1,3 @@
+en
+english
+This is a demo of the English language file. Follow the demo instructions at http://mchsoft.com/demos/languages/languages.html

@@ -1,0 +1,3 @@
+es
+español
+Esto es un demo del fichero de idioma español. Siga las instrucciones del demo en http://mchsoft.com/demos/languages/languages.html
