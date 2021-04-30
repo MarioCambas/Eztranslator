@@ -153,6 +153,7 @@ Javascript: At the end of the html file add the folowing code...
 </script>
 ```
 # HOW TO USE:
+Add the class "flags" to show dropdown list or the class "flagslist" to show list to the html tag you want to convert into translator.
 Simply add the attr trans to every text, component, html tags you want to translate.
 Syntax: trans="index" index = line number in translation file subtratting 1; example: line number 10 index =10-1=9
 HTML souce code examples
