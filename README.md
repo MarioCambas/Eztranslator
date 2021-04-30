@@ -1,13 +1,13 @@
 # laguages
 Translate your web pages easily
 # HOW TO CONFIGURE:
-Create a txt file for each language you want to use and save it as filename 'code for language.txt' using lowercase an the code for language thats it 'es' for spanish, 'en' for english, fr for french, and so on. Make a web search for languages codes...
-The name of the file will be used to show the flag image related to the language
-The fisrt line of the txt file define the language
-The second line define the langauage name
-Use a single line for each text to translate
-You can include html tags in the file
-for example: This is a code expample used in this demo
+Create a txt file for each language you want to use and save it into languages folder under filename 'code for language.txt' using lowercase an the code for language thats it 'es' for spanish, 'en' for english, fr for french, and so on. Make a web search for languages codes...
+- The name of the file will be used to show the flag image related to the language
+- The fisrt line of the txt file define the language
+- The second line define the langauage name
+- Use a single line for each text to translate
+- You can include html tags in the file
+for example:
 ```
 0 en
 1 english
@@ -17,7 +17,7 @@ for example: This is a code expample used in this demo
 ```
 Once you done crating those languages files run the php file class_traslationfilestojs.php located in php folder.
 This class will process all language files included in languages folder and will create the language.js file that have to be include in your html file.
-```
+```php
 <?php header("Access-Control-Allow-Origin: *");
 class C_writetranslationfilestojs{
     var $translationFile;
@@ -107,7 +107,7 @@ $writeConfig = new  C_writetranslationfilestojs();
 ?>
 ```
 Javascript: Include the following code in the head of your html file
-```
+```javascript
     <head>
     ...
   <meta charset="utf-8">
@@ -127,7 +127,7 @@ Javascript: Include the following code in the head of your html file
     </head>
 ```
 Javascript: At the end of the html file add the folowing code...
-```
+```javascript
 <script>
  $(document).ready(function () {
 	$('.flagslist').html(flagsSelector);
@@ -155,7 +155,7 @@ Javascript: At the end of the html file add the folowing code...
 Simply add the attr trans to every text, component, html tags you want to translate.
 Syntax: trans="index" index = line number in translation file subtratting 1; example: line number 10 index =10-1=9
 HTML souce code examples
-```
+```html
 Input with placeholder translated <input class="form-control" trans="11" placeholder="" value="">
 
 Input textarea with value translated <textarea trans="13"></textarea>
