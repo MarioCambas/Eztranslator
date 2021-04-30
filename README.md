@@ -10,11 +10,11 @@ Create a txt file for each language you want to use and save it into languages f
 - You can include html tags in the file
 for example:
 ```
-0 en
-1 english
-2 <span style="font-size:20px;color:red;" trans="15">This is a code expample used in this demo</span>
-3 ...
+1 en
+2 english
+3 <span style="font-size:20px;color:red;" trans="15">This is a code expample used in this demo</span>
 4 ...
+5 ...
 ```
 Once you done crating those languages files run the php file class_traslationfilestojs.php located in php folder.
 This class will process all language files included in languages folder and will create the language.js file that have to be include in your html file.
